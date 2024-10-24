@@ -1,0 +1,17 @@
+[package]
+name = "SchoolManagement"
+version = "1.0.0"
+authors = ["Your Name"]  # Replace "Your Name" with your actual name
+
+[addresses]
+SchoolManagement = '0x8de98c284423ee9ebf983ae754633a81d00e14efa64db9d11be015ac86c11a9f'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "abc123def456gh7890ijklmnopqrstu"  # Replace with an actual commit hash
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
+[dependencies]  # Remove this section if no additional dependencies are needed
